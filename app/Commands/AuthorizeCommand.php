@@ -18,7 +18,7 @@ class AuthorizeCommand extends Command
      */
     protected $description = 'Configure your GitHub access token';
 
-    public function handle(Store $store): ?int
+    public function handle(Store $store): int
     {
         $token = $this->argument('token') ?: $this->secret('What is your GitHub access token?', '');
 
