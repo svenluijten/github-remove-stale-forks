@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => 'Github-remove-stale-forks',
+    'name' => 'GitHub Remove Stale Forks',
 
     /*
     |--------------------------------------------------------------------------
